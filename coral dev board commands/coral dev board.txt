@@ -1,0 +1,31 @@
+nmcli dev wifi connect <wifi name> password <wifi password> ifname wlan0
+
+nmcli connection edit 
+
+set 802-1x.eap peap
+
+set 802-1x.phase2-auth mschapv2
+
+set 802-1x.identity <username>
+
+set 802-1x.password <password>
+
+set wifi-sec.key-mgmt wpa-eap
+
+set 802-11-wireless.ssid <wifi name>
+
+------------------------------------------------
+
+
+python3 custom_coral_inference.py --model model.tflite 
+
+python3 custom_coral_inference_loop.py --model model.tflite 
+
+mdt pull /home/mendel/Medical_Semantic_Segmentation\result.npy C:\Users\ADMIN\Desktop
+
+import numpy as np
+img=np.load('CHNCXR_0001_0_result.npy')
+from matplotlib import pyplot as plt
+plt.imshow(img, interpolation='nearest')
+plt.show()
+
