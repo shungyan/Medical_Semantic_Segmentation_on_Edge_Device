@@ -25,6 +25,8 @@ Result of 2D U-net compared to other models
 
 2D U-Net is compressed and implemented on Google Coral Dev Board Mini.
 Performance of 2D U-Net on Google Coral Dev Board Mini.
+![image](https://github.com/shungyan/Medical_Semantic_Segmentation_on_Edge_Device/assets/84812149/78c02767-db76-4058-88e3-c9342553b10f)
+
 ![Uploading image.png…]()
 
 
