@@ -9,7 +9,8 @@ Performance of 3D U-Net
 
 
 Performance of 2D U-Net on Google Coral Dev Board Mini.
-![image](https://github.com/shungyan/Medical_Semantic_Segmentation_on_Edge_Device/assets/84812149/867dc5dd-eda3-4cf2-801d-203d4f7567fc)
+![image](https://github.com/shungyan/Medical_Semantic_Segmentation_on_Edge_Device/assets/84812149/3993d6bb-26cc-4222-a314-c09db5fc87ca)
+
 
 Overview of this project: 
 Optimize the performance of U-Net on Medical Semantic Segmentation and implement it on edge device (Google Coral Dev Board Mini).
